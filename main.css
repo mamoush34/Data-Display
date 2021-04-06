@@ -1,0 +1,46 @@
+html, 
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.header > h3, h5 {
+    margin: 0;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.tooltip {
+    position: absolute;
+    font-size: 12px;
+    min-width: 100px;
+    padding: 10px;
+    width:  auto;
+    height: auto;
+    pointer-events: none;
+    background-color: white;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+}
+
+select {
+    margin: 50px 20px;
+    padding: 10px;
+}
+
+.dropDown {
+    border: solid 1px black;
+    border-radius: 5px;
+    box-shadow: 1px 1px black;
+}
+
+
