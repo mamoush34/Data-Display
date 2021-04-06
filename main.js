@@ -41,7 +41,7 @@ let outputValue = "Viscosity";
 
 d3.json("../data/Uncountable Front End Dataset.json").then(function(data) {
     experimentData = d3.entries(data);
-    setGraphData("Polymer 1", "Viscosity")
+    setGraphData()
     inputDropDown()
     outputDropDown()
 });
